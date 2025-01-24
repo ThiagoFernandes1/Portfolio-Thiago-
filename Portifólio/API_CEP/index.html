@@ -1,0 +1,44 @@
+<html>
+
+    <head>
+        <title>API CEP</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- Inicio do formulario -->
+        <h1>Pesquisa de endereço usando a API </h1>
+        <form method="get" action="." id="formEndereco">
+            <div class="linha">
+                <label>Cep:</label>
+                <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+                    onblur="pesquisacep(this.value);" />
+            </div>
+
+            <div class="linha">
+                <label>Rua:</label>
+                <input name="rua" type="text" id="rua" size="60" />
+            </div>
+            <div class="linha">
+                <label>Bairro:</label>
+                <input name="bairro" type="text" id="bairro" size="40" />
+            </div>
+            <div class="linha">
+                <label class="label_1">Cidade:</label>
+                <input name="cidade" type="text" id="cidade" size="40" />
+            </div>
+            <div class="linha">
+                <label>Estado:</label>
+                <input name="uf" type="text" id="uf" size="2" />
+            </div>
+            <div class="linha">
+                <label>IBGE:</label>
+                <input name="ibge" type="text" id="ibge" size="8" />
+            </div>
+        </form>
+        <script src="script.js"></script>
+        <a href="../Enviar_email/index.html"><h1>Ir para a API DE EMAIL</h1></a>
+    </body>
+
+</html>
