@@ -24,7 +24,7 @@ body {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #00FF08;
+    background-color: #ffffff;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -38,12 +38,12 @@ h2.titulo {
 }
 
 h2.titulo span {
-    color: #00FF08;
+    color: #ffffff;
 }
 
 button:hover,
 form .btn-enviar input:hover {
-    box-shadow: 0px 0px 8px #00ff08;
+    box-shadow: 0px 0px 8px #ffffff;
     transform: scale(1.05);
 }
 
@@ -86,7 +86,7 @@ header nav.menu-desktop ul li {
 }
 
 .btn-abrir-menu i{
-    color: #00FF08;
+    color: #ffffff;
     font-size: 40px;
 }
 
@@ -133,7 +133,7 @@ header nav.menu-desktop ul li {
 }   
 
 .menu-mobile nav ul li a:hover{
-    background-color: #00FF08;
+    background-color: #ffffff;
     color: #000;
 }
 
@@ -166,7 +166,7 @@ section.topo-do-site .flex {
 }
 
 .topo-do-site .txt-topo-site h1 span {
-    color: #00FF08;
+    color: #ffffff;
 }
 
 .topo-do-site .txt-topo-site p {
@@ -256,7 +256,7 @@ section.sobre .flex {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #00FF08;
+    background-color: #ffffff;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -268,7 +268,7 @@ section.sobre .flex {
     height: 60px;
     border-radius: 50%;
     border: none;
-    background-color: #00FF08;
+    background-color: #ffffff;
     font-size: 22px;
     cursor: pointer;
     margin: 0 5px;
@@ -362,7 +362,7 @@ form .btn-enviar {
 
 form .btn-enviar input {
     width: 120px;
-    background-color: #00FF08;
+    background-color: #ffffff;
     color: #000;
     font-weight: 700;
     cursor: pointer;
@@ -385,7 +385,7 @@ footer .line-footer {
 }
 
 .borda {
-    border-top: 2px solid #00FF08;
+    border-top: 2px solid #ffffff;
 }
 
 footer .line-footer p i {
