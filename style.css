@@ -32,13 +32,13 @@ body {
 }
 
 h2.titulo {
-    color: #fff;
+    color: #00c3ff;
     font-size: 38px;
     text-align: center;
 }
 
 h2.titulo span {
-    color: #ffffff;
+    color: #00c3ff;
 }
 
 button:hover,
@@ -116,7 +116,7 @@ header nav.menu-desktop ul li {
 }
 
 .menu-mobile .btn-fechar i{
-    color: #00FF08;
+    color: #00c3ff;
     font-size: 30px;
 }
 
